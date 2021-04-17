@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif ;
+}
+body{
+  background-color: #BECADA;
+  margin: 0px;
+}
+nav{
+    display: flex ;
+     background-color: #1F2937;
+     padding: 0.5rem;
+    border-bottom-left-radius: 15px ;
+    border-bottom-right-radius: 15px ;
+    
+  }
+  .right-nav{
+    color: #F2F2F2;
+    width: 75%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  
+  }
+  .right-nav ul {
+    list-style-type: none;  
+  }
+  .right-nav ul li {
+   display: inline;
+   margin-left: 1rem ;
+   transition: .3s ease;
+  }
+  .right-nav ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 1.1rem;
+  }
+  .right-nav li:hover{
+   /* border-bottom: 3px solid whitesmoke; */
+   font-weight:bold ;
+   
+  }
+  .left-nav{
+    padding-left: 0.5rem;
+    color: #F2F2F2;
+    font-size: 25px;
+    width: 25%;
+  }
+  .about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  .about img {
+     width: 50%;
+     height: 20rem;
+     margin-bottom: 2rem;
+  }
+  .section{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+    
+  }
+  .inverted{
+    background-color: #718BAD;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  footer{
+    height: 6rem;
+   background-color: #253141;
+   margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   color: antiquewhite;
+    }
+  footer ul{
+    
+    margin: 0;
+    list-style: none;
+    display: flex;
+    padding: 0.3rem;
+  }
+  footer li{
+    padding: 0.3rem;
+   
+  }
+  footer p{
+    font-size: 1rem;
+  }
+.inner a{
+  text-decoration: none;
+    font-size: 1rem;
+    border: none;
+    border-radius: 15px;
+    background-color:#00BFA5;
+    color: black;
+    margin: 0.2rem;
+    padding: 0.4rem;
+  }
+  .inner{
+    width: 80%;
+    padding: 1rem;
+  }
+  .buttons{
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
