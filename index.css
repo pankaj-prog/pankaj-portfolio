@@ -88,6 +88,11 @@ nav{
   align-items: center;
    color: antiquewhite;
     }
+    footer a{
+      text-decoration: none;
+      font-size: 1rem;
+      color: aliceblue;
+    }
   footer ul{
     
     margin: 0;
@@ -103,7 +108,7 @@ nav{
     font-size: 1rem;
   }
 .inner a{
-  text-decoration: none;
+    text-decoration: none;
     font-size: 1rem;
     border: none;
     border-radius: 15px;
